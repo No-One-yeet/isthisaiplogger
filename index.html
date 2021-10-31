@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is this a iplogger?</title>
+    <link rel="icon" type="image/png" href="files/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <img src="files/logo.png" width="100px" height="100px">
+        <h1>Is this a Iplogger?</h1>
+        <style>
+        img{
+          float: left;
+        }
+
+        h1{
+            padding: 26px;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+
+
+          h3, p{
+            text-align: center;
+          }
+        </style>
+        <h2>IPLogger checker</h1>
+        <form method="GET" class="my-4 form-inline" id="form">
+            <label for="fullUrl" class="sr-only">Url</label>
+            <input required placeholder="URL" type="url" name="fullUrl" id="fullUrl" class="form-control col mr-2">
+            <button class="btn btn-success" type="submit">Check</button>
+        </form>
+        <noscript><p>JavaScript is required.</p></noscript>
+        <h3 id="resultat"></h3>
+        <hr>
+        <h3>How does it work?</h3>
+        <p> Isthisaiplogger.com works with the domains that the iplogging services offer. The script checks the domain of the link and match this with a possibel Entry in the Database! You can also check  BUT WARNING: In the Database are not every domain so if they
+
+    </div>
+
+    <script src="files/script.js"></script>
+
+</body>
+
+</html>
